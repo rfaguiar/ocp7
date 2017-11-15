@@ -1,4 +1,4 @@
-package com.oracle.cap13.exemplo6;
+package com.oracle.cap13.exemplo5;
 
 public class Account {
 	private int balance = 50;
@@ -8,6 +8,6 @@ public class Account {
 	}
 	
 	public void withdraw(int amount) {
-		this.balance -= amount;
+		balance -= amount;
 	}
 }
